@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@latest
+    - uses: actions/checkout@main
     - uses: DeLaGuardo/setup-graalvm@5.0
       with:
         # GraalVM version, no pattern syntax available atm
